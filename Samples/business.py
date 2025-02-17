@@ -5,7 +5,7 @@ import requests
 
 def find_businesses(ll, spn, request, locale="ru_RU"):
     search_api_server = "https://search-maps.yandex.ru/v1/"
-    api_key = "!!!"  # вставить api_key
+    api_key = "40d1649f-0493-4b70-98ba-98533de7710b"  # вставить api_key
     search_params = {
         "apikey": api_key,
         "text": request,
